@@ -55,12 +55,31 @@ blockquote {
 
 @media only screen and (min-width:38em) {
 
+  article {
+    max-width: 43em;
+    font-size: 110%;
+    line-height: 140%;
+    margin-bottom: 1.4rem;
+  }
 }
 
 @media only screen and (min-width:60em) {
+
+  article {
+    max-width: 60em;
+    font-size: 120%;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+  }
 
 }
 
 @media only screen and (min-width:90em) {
 
+  article {
+    max-width: 90em;
+    font-size: 130%;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+  }
 }
