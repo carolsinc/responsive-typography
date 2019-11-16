@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
 
   color: #222;
 }
@@ -20,14 +20,15 @@ html {
 }
 
 body {
-  margin: .5rem .7rem 1.6rem;
+  margin: 0;
 }
+
 article {
   max-width: 43em;
   font-size: 100%;
-  line-height: 130%;
+  line-height: 1.3rem;
   padding: 0 .3rem;
-  margin-bottom: 1.3rem;
+  margin: .5rem .8rem 1.6rem .7rem;
 }
 
 article h1 {
@@ -42,12 +43,12 @@ article header {
 
 article header p {
   font-style: italic;
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding:0 0 1rem;
+  padding: 0 0 1rem;
 }
 
 blockquote {
@@ -73,6 +74,12 @@ article p {
   margin: 1.1rem 0;
 }
 
+@media only screen and (min-width: 25em) {
+  article header p {
+    margin-top: .rem;
+
+}
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -81,6 +88,8 @@ article p {
     line-height: 1.4;
     margin-bottom: 1.4rem;
   }
+
+
 }
 
 @media only screen and (min-width: 60em) {
