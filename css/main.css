@@ -76,8 +76,16 @@ article p {
 
 @media only screen and (min-width: 25em) {
   article header p {
-    margin-top: .rem;
+    margin-top: .3rem;
+  }
 
+  article p {
+    margin: 1.2rem 0;
+  }
+
+  article ol {
+    margin: 1rem;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -87,6 +95,18 @@ article p {
     font-size: 110%;
     line-height: 1.4;
     margin-bottom: 1.4rem;
+  }
+
+  article p {
+    margin: 1.7rem 0;
+  }
+
+  blockquote {
+    margin: 1.6rem 0 2rem 2rem;
+  }
+
+  article ol {
+    line-height: 1.4rem;
   }
 
 
